@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergalctic Travelers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This is the Header -->
+
+    <h1 class="first-header">Welcome to Intergalctic Travelers</h1>
+   
+    <img src="image/images.jpg" width="400" height="250" alt="Can not desplay the Image">
+
+    <!-- This is the introduction -->
+
+    <p class="paragraph">Welcome to the future of exploration and 
+        adventure! At our Intergalactic Travel Agency, 
+        we invite you to embark on an extraordinary journey beyond 
+        the bounds of Earth. Imagine a universe filled with dazzling 
+        celestial wonders, uncharted planets, and the thrill of 
+        interstellar discovery. Whether you dream of traversing 
+        distant galaxies, witnessing breathtaking cosmic phenomena, 
+        or experiencing life on otherworldly terrains, our agency 
+        is your gateway to the wonders of the cosmos. Join us as 
+        we redefine travel and take you on an unparalleled voyage 
+        to the stars. Your cosmic odyssey begins here!.
+    </p>
+    
+    <h1 class="second-header">Embark on Your Stellar Adventure: 
+        Begin Your Journey with Us!</h1>
+    
+        <!-- This is the header for form -->
+    <form>
+    <div class="form">
+   
+        <!-- This is the implementation of the form -->
+    
+    <div class="Personal-Information">
+
+    <h4>Personal Information</h4>
+
+    <!-- This form element for fullname -->
+
+    <label for="fullname">Full Name</label><br>
+    <input id="fullname" type="text" placeholder="Olivia Nieminen " minlength="0" maxlength="20" required><br>
+         
+    <!-- This form element for email -->
+
+    <label for="email"> Contact Email</label><br>
+    <input id="email" type="email" placeholder="email@example.com"><br>
+
+    <!-- This form element for phone number -->
+
+    <label for="phone">Phone Number</label><br>
+    <input id="phone" type="tel" placeholder="123-345-1234" 
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+    <!-- This form element for age -->
+
+    <label for="age">Age</label><br>
+    <input id="age" type="number" placeholder="35"><br>
+    
+    <!-- This form element for birthdate -->
+
+    <label for="birthdate">Birth date</label><br>
+    <input id="birthdate" type="date" min="1980-01-01" max="2020-01-01"><br>
+
+    <!-- This form element for coloer picker -->
+
+    <label for="spacesuitcolor">Choose Your Preferred Spacesuit Color</label><br>
+    <input id="spacesuitcolor" type="color"><br>
+    
+    <!-- This form element for emergency contact -->
+
+    <label for="emergencycontact"> Emergency Contact</label><br>
+    <input id="emergencycontact" type="text" placeholder="Contact Name"><br>
+    <input id="phone" type="tel" placeholder="Contact Phone Number"><br>
+    
+    </div>
+
+    <div class="TravelPreferences">
+
+    <h4>Travel Preferences</h4>
+
+    <!-- This form element for select desired planets and glaxies -->
+
+    <label for="planet">Select Desired Planets to visit</label><br>
+    <label for="planet">Solaris Prime</label><br>
+    <input id="planet" type="checkbox"><br>
+    <label for="planet">Nebula Nova</label><br>
+    <input id="planet" type="checkbox"><br>
+    <label for="planet">Celestia Vortex</label><br>
+    <input id="planet" type="checkbox"><br>
+    <label for="planet">Crystalis IX</label><br>
+    <input id="planet" type="checkbox"><br>
+    
+     <!-- This form element for select desired galaxies and glaxies -->
+
+     <label for="galaxy">Select Desired Glaxies to visit</label><br>
+     <label for="galaxy">Andromeda Enclave</label><br>
+     <input id="galaxy" type="checkbox"><br>
+     <label for="galaxy">Milky Way Mirage</label><br>
+     <input id="galaxy" type="checkbox"><br>
+     <label for="galaxy">Pegasus Nebula</label><br>
+     <input id="galaxy" type="checkbox"><br>
+     <label for="galaxy">Virgo Celestia</label><br>
+     <input id="galaxy" type="checkbox"><br>
+    
+    <!-- This form element for cabin class -->
+
+    <label for="cabinclass">Choose Your Preferred Cabin Class</label><br>
+    
+    <input type="radio" id="economy" name="cabinclass" value="Economy">
+    <label for="economy">Economy</label><br>
+    
+    <input type="radio" id="business" name="cabinclass" value="Business">
+    <label for="business">Business</label><br>
+    
+    <input type="radio" id="galactic" name="cabinclass" value="GalacticSuite">
+    <label for="galactic">Galactic Suite</label><br>
+        
+    <!-- This form element for Gravity level -->
+
+    <label for="gravityRange">Select Desired Gravity Level</label>
+    <br>
+    <input type="range" id="gravityRange" name="gravity" min="1" max="10" value="5">
+    <br>
+    
+    <!-- This form element for dropdown for meals selection -->
+
+    <label for="meal">Select Your Preferred Meal</label><br>
+    <select id="meal">
+      <option value="Earth Cuisine">Earth Cuisine</option>
+      <option value="Martian Delights">Martian Delights</option>
+      <option value="Asteroid Snaks">Asteroid Snaks</option>
+    </select><br>
+    
+    </div>
+
+    <div class="Intergalactic Passport Upload">
+
+    <h4>Intergalactic Passport Upload</h4>
+        
+    <!-- This form element for Intergalactic Passport Upload -->
+
+    <label for="passport">Upload Your passport or intergalactic ID</label><br>
+    <input id="passport" type="file"><br>
+
+    <!-- This form element for health and safety checklist -->
+
+    </div class=Health and Safety>
+
+    <div>
+     <h4>Health and Safety</h4>
+
+     <label for="allergies">Select Known Space Allergies</label><br>
+     <label for="allergies">Moon Dust</label><br>
+     <input id="allergies" type="checkbox"><br>
+     <label for="allergies">Solar Flares</label><br>
+     <input id="allergies" type="checkbox"><br>
+
+     <label for="specialmedi">Special Medical Requirements</label><br>
+     <input id="specialmedi" type="textarea"><br>
+    </div>
+
+<!-- This form element for Legal Agreements and Consents checklist -->
+
+    <div>
+    <h4>Legal Agreements and Consents Section</h4>
+
+    <label for="legal">I Agree with Risk Consent</label><br>
+    <input id="legal" type="checkbox"><br>
+    <label for="legal">I Agree with Space Sickness Waiver</label><br>
+    <input id="legal" type="checkbox"><br>
+
+    <!-- This form element for signature line input -->
+    
+    <label for="sign">Signature</label><br>
+    <input id="sign" type="line"><br>
+
+    </div>
+    
+    <!-- This form element for Additinal Requests and Comments textsarea-->
+
+    <div>
+       <label for="comments">Additinal Requests and Comments</label><br>
+       <input id="comments" type="textarea"><br> 
+    </div>
+
+    <div>
+        <input type="reset">
+        <input type="submit">
+    </div>
+  </form>
+</body>
+</html>
