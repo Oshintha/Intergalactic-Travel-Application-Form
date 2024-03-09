@@ -1,0 +1,69 @@
+@font-face {
+    src: url(font/Roboto-Bold.ttf);
+    font-family:Roboto-Bold;
+    
+}
+
+h1{
+    color: brown;
+}
+
+body{
+    background-color: rgb(203, 161, 242);
+}
+.first-header{
+    color: rgb(134, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    border: 4px solid black;
+    border-radius: 25px;
+}
+.second-header{
+    color: rgb(70, 5, 5);
+}
+.paragraph{
+    color: rgb(156, 62, 15);
+    font-family: "calibri";
+    font-weight: bold;
+    font-style: normal;   
+}
+.form{
+    border: 5px solid rgb(162, 179, 162);
+    width: 200px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+input[type="text"]:hover{
+    background-color: rgb(73, 226, 43);
+    color: rgb(255, 0, 60);
+}
+
+input[type="email"]:hover{
+    background-color: rgb(73, 226, 43);
+    color: rgb(255, 0, 60);
+}
+
+input[type="tel"]:hover{
+    background-color: rgb(73, 226, 43);
+    color: rgb(255, 0, 60);
+}
+
+input[type="textarea"]:hover{
+    background-color: rgb(73, 226, 43);
+    color: rgb(255, 0, 60);
+}
+
+h4{
+    color: brown;
+    font-weight: bold;
+}
+.img{
+    border: 5px solid rgb(162, 179, 162);
+    width: 200px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+ 
+.TravelPreferences:hover {
+    background-color: rgb(73, 226, 43);
+}
